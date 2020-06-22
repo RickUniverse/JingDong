@@ -1,0 +1,21 @@
+.wenzi-xin-xi{
+	width: 990px;
+	margin: 30px auto;
+}
+.wenzi-xin-xi>p{
+	text-align: center;
+	font-size: 30px;
+	font-weight: 400;
+	margin-top: 10px;
+}
+.dizhi-hou{
+	color: #333333;
+}
+.jiazhi-zong{
+	color: #C81623;
+	font-size: 40px;
+}
+.wenzi-xin-xi a:hover{
+	color: #C81623;
+	text-decoration: underline;
+}

@@ -1,0 +1,148 @@
+ *{
+	 margin: 0px;
+	 padding: 0px;
+	}
+.d2{
+	width: 100%;
+	height: 588px;
+	background-image: url(imgs/011.024017e.png);
+}
+.d3{
+	margin-top: 40px;
+}
+.d3 a{
+		color: #757575;
+		font-size: 14px;
+	text-decoration: none;
+	    font-family: arial,"Hiragino Sans GB", "Microsoft YaHei","微軟正黑體","儷黑 Pro", sans-serif;
+}
+.u1{
+	list-style: none;	
+		   display:inline;
+		    white-space: nowrap;         
+}
+.u2{
+	margin-top: 45px;
+}
+.u3{
+	       list-style: none;	
+		   display:inline;
+		    white-space: nowrap;     
+}
+.zi3{
+	background-color: white;
+	height: 177px;
+	width: 399px;
+	float: right;
+	margin-bottom: 1px;
+}
+.zi1 a{
+	margin-left: 40px;
+		color: #757575;
+		font-size: 24px;
+	text-decoration: none;
+	    font-family: arial,"Hiragino Sans GB", "Microsoft YaHei","微軟正黑體","儷黑 Pro", sans-serif;
+}
+.zi3 a{
+	color: #757575;
+		font-size: 14px;
+	text-decoration: none;
+	    font-family: arial,"Hiragino Sans GB", "Microsoft YaHei","微軟正黑體","儷黑 Pro", sans-serif;
+}
+.input1{
+	height: 50px;
+	width: 350px;	
+	border: 1px solid darkgrey; 
+	margin: 16px;
+}
+.b1{
+	position: relative;
+	color: white;
+	background-color: #ff6700;
+	height: 50px;
+	width: 350px;	
+	margin: 20px;
+	border: 0px;
+}
+.b1 p{
+	margin: 3px;
+}
+.d22{
+	width: 410px;
+	height: 548px;
+	margin-right: 201px;
+	margin-top: 40px;	
+	float: right;
+	background-color: white;
+	position: absolute;
+	top: 98px;
+	right: 25px;
+}
+.zi1{
+	background-color: white;
+	height: 83px;
+	width: 399px;
+}
+.zi2{
+	height: 250px;
+	width: 399px;
+	margin-top: 10px;
+}
+.ull{
+	height: 50px;
+	width: 300px;
+	margin: 0 auto;
+}
+.u1 li{
+	margin-top: 30px;
+	padding: 1px;
+	display:inline-block;
+	text-align:center;
+}
+.u2 li{
+	
+	display:inline-block;
+	text-align:center;
+}
+.u3 li{
+	margin-left: 0px;
+	display:inline-block;
+	text-align:center;
+}
+.p1{
+ text-align: center;
+ color: #757575;
+		font-size: 14px;	
+	    font-family: arial,"Hiragino Sans GB", "Microsoft YaHei","微軟正黑體","儷黑 Pro", sans-serif;
+}
+.l1 a{
+	color: #ff6700;
+}
+.txt{
+	font-size: 14px;
+    color: #b0b0b0;
+    margin-top: 90px;
+}
+.img1{
+	margin-left: 30px;
+}
+.name{
+	height: 580px;
+	width: 1030px;
+}
+/*#quan{
+	border: 1px solid #333;
+	width: 100%;
+	height: 800px;
+}*/
+.erweima{
+	border: 1px solid red;
+	width: 350px;
+	height: 300px;
+	background-color: red;
+	display: none;
+	margin-left: 25px;
+	position: fixed;
+	left: 35%;
+	top: 35%;
+}

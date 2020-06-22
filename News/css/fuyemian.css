@@ -1,0 +1,60 @@
+body{text-align:center} 
+.two{
+	    width: 790px;
+    margin-right: 10px;
+	    display: inline-block;
+	    background: white;
+	   margin-top: 80px;
+	
+}
+.er
+{
+	width: 790px;
+	margin-left: -100px;
+	
+	
+}
+.three{
+	    vertical-align: top;
+	        width: 390px;
+	        height: 100%px;
+	       display: inline-block;
+	       margin-top: 80PX;
+	      background: white;
+	       text-align: center;
+	 
+	    
+}
+.one{
+	width: 100%px;
+	height: 1000px;
+	background: #F0F0F0;
+}
+.re{
+	margin-bottom:20px;
+color:#999;
+line-height:22px;
+
+}
+
+.neir{
+width: 640px;
+display: inline-block;
+}
+.biaoq{
+	margin-top: 80px;
+}
+
+.shouj{
+color: #666666;
+}
+.ll{
+	margin-top: 5px;
+}
+.oo {
+	margin-left: 10px;
+	display: inline-block;
+}
+.biaoti{
+	color: #666666;
+}

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="../jQuery/jquery-1.8.3.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+
+    var $box = $('.box');
+    var $arrowLeft = $('.arrow .left');
+    var $arrowRight = $('.arrow .right');
+    var $uLi = $('.box>ul>li');
+    var $ol = $('.box>ol');
+    
+    var imgNum = $('.box>ul>li').length;    // 图片的数量
+    var index = 0;  // 计数器
+    
+    
+    // 小圆点
+    var num = 0;
+
+    // 根据图片的数量动态生成小圆点
+    while(num < imgNum) {
+        $ol.append("<li></li>");
+        num++;
+    }
+
+    var $oLi = $('.box>ol>li');
+    $oLi.first().addClass('now');  // 默认给第一个小圆点添加now类
+    
+    // 鼠标经过小圆点时，显示出对应的图片
+    $oLi.mouseover(function() {
+        $(this).addClass('now').siblings().removeClass('now');
+        index = $(this).index();
+        $uLi.eq(index).fadeIn().siblings().fadeOut();
+    });
+    
+    
+    // 1、点击右箭头：让当前图片的下一张图片淡入，其他图片淡出。
+    $arrowRight.click(function() {
+        index++;
+        if(index>imgNum-1) {
+            index = 0;
+        }
+        
+        // 点击右箭头修改呈现的图片时，对应的小圆点也跟着修改now类
+        $uLi.eq(index).fadeIn().siblings().fadeOut();
+        $oLi.eq(index).addClass('now').siblings().removeClass('now');
+    });
+    
+    
+    // 2、单击左箭头：让当前图片的上一张图片淡入，其他图片淡出。
+    $arrowLeft.click(function() {
+        index--;
+        if(index<0) {
+            index = imgNum-1;
+        }
+        
+        // 点击右箭头修改呈现的图片时，对应的小圆点也跟着修改now类
+        $uLi.eq(index).fadeIn().siblings().fadeOut();
+        $oLi.eq(index).addClass('now').siblings().removeClass('now');
+    });
+    
+    
+    // 自动轮播
+    var timeId = setInterval(function() {
+        $arrowRight.click();
+    }, 2000);    // 2秒自动切换
+    
+    // 鼠标放在banner上，停止自动播放
+    $box.hover(function() {
+            clearInterval(timeId);
+        }, function(){
+        timeId = setInterval(function() {
+            $arrowRight.click();
+        }, 2000);    // 2秒自动切换
+    });
+});
+		</script>
+		<style type="text/css">
+			* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.box {
+    width: 700px;
+    height: 314px;
+    margin: 100px auto;
+    position: relative;
+}
+
+.box ul li {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.box ul li:first-child {
+    display: block;
+}
+
+.arrow>a {
+    width: 30px;
+    height: 60px;
+    background-color: rgba(0,0,0,.4);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    font-family: '宋体';
+    text-decoration: none;
+    color: #fff;
+}
+
+.arrow {
+    opacity: .4;
+}
+
+.arrow:hover {
+    opacity: 1;
+}
+
+.arrow>.left {
+    left: 0;
+}
+
+.arrow>.right {
+    right: 0;
+}
+
+ol {
+    position: absolute;
+    bottom: 10px;
+    left: 12%;
+    transform: translateX(-50%);
+    border-radius: 20px;
+    padding: 0 5px;
+}
+
+ol li {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 2px solid rgba(0,0,0,.4);
+    float: left;
+    margin: 3px 5px;
+    cursor: pointer;
+}
+
+.now {
+    border: 1px solid rgba(0,0,0,0);
+    background: rgba(0,0,0,.7);
+    box-shadow: 0 0 0 4px rgba(0,0,0,.3);
+}
+		</style>
+	</head>
+	<body>
+		<div class="box">
+    <ul>
+        <li><a href="#"><img src="../img/bg1.jpg" alt=""></a></li>
+        <li><a href="#"><img src="../img/bg2.jpg" alt=""></a></li>
+        <li><a href="#"><img src="../img/bg3.jpg" alt=""></a></li>
+        <li><a href="#"><img src="../img/bg4.jpg" alt=""></a></li>
+        <li><a href="#"><img src="../img/bg5.jpg" alt=""></a></li>
+        <li><a href="#"><img src="../img/bg6.jpg" alt=""></a></li>
+    </ul>
+    
+    <div class="arrow">
+        <a href="javascript:void(0)" class="left">&lt;</a>
+        <a href="javascript:void(0)" class="right">&gt;</a>
+    </div>
+    
+    <ol>
+        <!-- 小圆点 -->
+    </ol>
+</div>
+	</body>
+</html>

@@ -1,0 +1,184 @@
+/*
+ * 商品描述
+ */
+#sp-js-da{
+	width: 1210px;
+	height:100%;
+	/*border:1px solid red;*/
+	margin: 0 auto;
+}
+.sp-js-left{
+	width: 210px;
+	height:1586px;
+	border:1px solid rgba(0,0,0,.1);
+	float: left;
+}
+.sp-js-right{
+	width: 990px;
+	/*height: 4300px;*/
+	/*border:1px solid red;*/
+	float: right;
+}
+/*left*/
+.le-sp-tit{
+	padding: 10px;
+	background-color: #f7f7f7;
+	border: 1px solid #EEEEEE;
+}
+.le-sp-tit>h3{
+	font-size: 13px;
+	color: #666;
+}
+.le-sp-box{
+	width: 188px;
+	/*height:185px;*/
+	/*border:1px solid red;*/
+	margin: 10px;
+}
+.le-sp-img>img{
+	width: 180px;
+}
+.le-sp-p>p{
+	text-overflow: ellipsis;
+	height: 36px;
+	overflow: hidden;
+}
+.le-sp-p>p>a{
+	color: #666666;
+}
+.le-sp-rmb{
+	color: red;
+	font-size: 12px;
+	font-weight: 700;
+}
+.le-sp-pr{
+	color: red;
+	font-size: 15px;
+	font-weight: 700;
+}
+.le-sp-zong{
+	margin-bottom: 10px;
+}
+.le-sp-zong:hover a{
+	color: #C81623;
+}
+/*
+ * 右面
+ */
+/*top*/
+.sp-js-ri-top{
+	width: 100%;
+	height: 38px;
+	border-bottom: 1px solid red;
+	background-color: #f7f7f7;
+}
+.sp-js-ri-top>ul{
+	float: left;
+}
+.sp-js-ri-top>ul>li{
+	/*width: 106px;*/
+	padding: 0px 30px;
+	height: 38px;	
+	float: left;
+	text-align: center;
+	line-height: 38px;
+	/*border: 1px solid #333333;*/
+	font-size: 13px;
+}
+.sp-js-ri-top>ul>li:hover{
+	color: #C81623;
+}
+.sp-jr-gu{
+	float: right;
+	padding: 4px 10px;
+	/*border: 1px solid red;*/
+	color: white;
+	background-color: #df3033;
+	margin: 5px;
+}
+.sp-cen-box{
+	/*width: 990px;*/
+	height: 247px;
+	border-bottom:1px solid rgba(0,0,0,.3);
+}
+.sp-cen-box>p{
+	margin: 40px 0px 10px 80px;
+}
+.sp-cen-box>p>span{
+	color: #596FAB;
+}
+.sp-dul-div>ul{
+	float: left;
+	margin: 13px 0px 10px 80px;
+}
+.sp-dul-div>ul>li{
+	line-height: 24px;
+}
+.gen-duo-can{
+	/*border: 1px solid red;*/
+	line-height: 30px;
+	text-align: right;
+	margin-top: 150px;
+}
+.gen-duo-can>a{
+	color: #596FAB;
+	margin-right: 30px;
+}
+.sp-img-xing{
+	width: 750px;
+	/*border: 1px solid red;*/
+	margin: 20px auto;
+}
+.sp-img-xing>img{
+	width: 750px;
+}
+.sp-js-box-po-2{
+	display: none;
+	/*position: absolute;*/
+	margin: 0 auto;
+}
+.qie-huan-yang{
+	background-color: #e4393c;
+	color: white;
+}
+/*
+ * 商品种类
+ */
+.sha-xin-shang{
+	padding:10px;
+	overflow: hidden;
+	border-bottom: 1px solid rgba(0,0,0,.1) ;
+}
+.xuan-yan-se{
+	float: left;
+}
+.shan-xuan-box{
+	float: left;
+	width: 662px;
+	margin-left: 10px;
+}
+.shan-xuan-an{
+	overflow: hidden;
+	float: left;
+	margin: 2px;
+	padding: 3px 10px;
+	background-color: #F7F7F7;
+	border: 1px solid rgba(0,0,0,.1);
+}
+.shan-xuan-an:hover{
+	border: 1px solid #C81623;
+}
+.shan-xuan-an>img{
+	float: left;
+}
+.shan-xuan-an>i{
+	float: left;
+	line-height: 40px;
+	font-style: normal;
+}
+.xuan-yan-border{
+	border-color: #C81623;
+}
+
+
+

@@ -1,0 +1,275 @@
+/*
+ * 主体
+ */
+.cen-zhu{
+	width: 990px;
+	margin: 0 auto;
+	/*border: 1px solid rgba(0,0,0,.1);*/
+	overflow: hidden;
+}
+/*
+ * 标题
+ */
+.tit-biao>h4{
+	font-size: 16px;
+	font-weight: 100;
+}
+/*
+ * box
+ */
+.add-jie-img{
+	text-align: right;
+}
+.zhu-ti-box{
+	border: 1px solid rgba(0,0,0,.1);
+	padding: 10px 30px;
+	margin-top: 10px;
+}
+/*
+ * 收货人
+ */
+.shou-huo-ren{
+	height: 40px;
+}
+.shou-huo-ren>h3{
+	float: left;
+	color: #333333;
+}
+.shou-huo-ren>span{
+	float: right;
+	color: #596FAB;
+}
+.sp-di:first>span{
+	border: 2px solid #E1251B;
+}
+.sp-di>span{
+	display: block;
+	padding: 5px 60px;
+	/*border: 1px solid rgba(0,0,0,.2);*/
+}
+.sp-di>span:hover{
+	border: 2px solid #E1251B;
+}
+.dizi-zong{
+	border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.di-zhi-box{
+	height: 30px;
+	/*overflow: hidden;*/
+	padding: 0px 10px;
+	margin-bottom: 10px;
+}
+.di-zhi-box:hover .p-di{
+	background-color:  rgb(255, 244, 232);
+}
+.di-zhi-box:hover .mo-qi{
+	display: block;
+}
+.sp-di{
+	float: left;
+	height: 30px;
+}
+.p-di-box{
+	float: left;
+}
+.p-di{
+	width: 753px;
+	/*border: 1px solid red;*/
+	float: right;
+	padding: 6px 0px;
+}
+.mo-qi{
+	float: right;
+	padding-right: 5px;
+}
+.mo-qi>span{
+	color: #596FAB;
+}
+.geng-duo{
+	margin:10px;
+}
+.mo-qi{
+	display: none;
+}
+.geng-duo{
+	cursor: pointer;
+}
+.dizhi-2{
+	display: none;
+}
+/*.sp-di-1>span{
+	border: 2px solid #E1251B;
+}*/
+/*.di-zhi-box{
+	border: 2px solid #E1251B;
+}*/
+.yang-di{
+	display: block;
+}
+.yang-bor{
+	border: 2px solid #E1251B;
+}
+/*
+ * 
+ */
+.bu-zhi-chi{
+	padding: 16px 0px;
+	color: #999999;
+	border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.zhi-fu-fang{
+	height: 74px;
+}
+.zhi-fu-fang>span{
+	margin: 10px 3px;
+	padding: 5px 10px;
+	display: block;
+	float: left;
+	border: 1px solid rgba(0,0,0,.1);
+}
+.zhi-fu-fang>.huo-dao-fu{
+	border: 2px solid #C81623;
+}
+.zhi-fu-fang>span:hover{
+	border: 2px solid #C81623;
+}
+.zhi-fu-fang>a{
+	float: left;
+	display: block;
+	padding: 5px 10px;
+	color: #596FAB;
+	margin-top: 10px;
+}
+.ying-fu-zong{
+	padding: 20px 20px;
+	text-align: right;
+	background-color: #F4F4F4;
+	width: 990px;
+	margin: 10px auto;
+	border: 1px solid rgba(0,0,0,.1);
+}
+.yf-zi{
+	color: #666666;
+}
+.yf-price{
+	    color: #e4393c;
+    font-family: Verdana;
+    font-weight: 700;
+    font-size: 18px;
+    min-width: 122px;
+}
+.di-zi{
+	margin-right: 30px;
+}
+.dizi-didian{
+	margin-top: 6px;
+}
+.dizi-didian>span{
+	color: #999999;
+}
+.ti-jiao-ding{
+	width: 990px;
+	margin: 7px auto;
+	text-align: right;
+	overflow: hidden;
+}
+.ti-jiao-ding>span{
+	float: right;
+	display: block;
+	width: 110px;
+	text-align: center;
+	line-height: 48px;
+	color: white;
+	font-size: 14px;
+	font-weight: 800;
+	background-color: #E4393C;
+	border-radius: 5px;
+}
+.di-zhi-box:first-child{
+	display: none;
+}
+/*
+ * 新地址
+ */
+.xin-di-zhi{
+	width: 100%;
+	height: 420%;
+	/*border: 1px solid red;*/
+	position: absolute;
+	z-index: 2;
+	top: 0px;
+	background-color: rgba(0,0,0,.1);
+}
+.xin-zeng{
+	width: 700px;
+	margin: 34px auto;
+}
+.tit-xin-zeng{
+	background-color: #F7F7F7;
+	padding: 3px 10px;
+	line-height: 30px;
+	overflow: hidden;
+}
+.tit-xin-zeng>h3{
+	float: left;
+	font-weight: 100;
+}
+.tit-xin-zeng>span{
+	float: right;
+	font-size: 25px;
+}
+.xin-zen-zhu-box{
+	padding: 20px 30px 90px 30px;
+	background-color: white;
+}
+.ti-xing{
+	margin-left: 60px;
+}
+.xin-zen-zhu-box>form>p{
+	margin: 15px 0px;
+}
+.xin-zen-zhu-box>form>p>input{
+	width: 242px;
+	height: 25px;
+}
+input{
+	/*-webkit-appearance: none;*/
+	/*box-shadow: none;*/
+	outline: 0;
+	outline: none;
+	text-decoration: none;
+}
+.xin-zen-zhu-box>form>p>.jin-yong{
+	width: 42px;
+	height: 25px;
+	color: #999999;
+	font-size: 12px;
+	background-color: #F4F4F4;
+	text-align: center;
+	line-height: 25px;
+	border: 1px solid rgba(0,0,0,.1);
+}
+.xin-zen-zhu-box>form>.bao-cun{
+	padding: 6px 15px;
+	background-color: #E1251B;
+	color: white;
+	font-size: 12px;
+	border-radius: 4px;
+	border: none;
+	margin-left: 61px;
+}
+.xin-zen-zhu-box>form>.zhi-bie-ming>span{
+	padding: 3px 6px;
+	border: 1px solid rgba(0,0,0,.2);
+	margin-right: 10px;
+	border-radius:4px ;
+}
+.xin-di-zhi{
+	display: none;
+}
+.xin-zeng-shou-huo:hover{
+	cursor: pointer;
+}
+.guan-bi-tian:hover{
+	cursor: pointer;
+}
